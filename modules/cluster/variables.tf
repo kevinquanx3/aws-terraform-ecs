@@ -12,5 +12,4 @@ variable "environment" {
 variable "tags" {
   description = "Custom tags to apply to all resources."
   default     = {}
-  type        = "map"
 }
